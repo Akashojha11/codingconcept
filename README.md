@@ -1,1 +1,3 @@
 # codingconcept
+
+go build
