@@ -92,6 +92,8 @@ func main() {
 
 	adityaAddress := &aditya
 
+	
+
 	fmt.Println("Akash pointer address = ",*akashAddress)           //* mean give the value of this address
 	fmt.Println("Aditya pointer address = ", adityaAddress)         // & mean give the address 
 
