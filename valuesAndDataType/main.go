@@ -16,10 +16,13 @@ func main() {
 	var addressofdec *float32
 	addressofdec =&decNum
 
+
+	
 	numb := 5665
 	fmt.Println(numb)
 
-	num4 :=number // it is use when number type not known then use short hand operator
+	//num4 :=number // it is use when number type not known then use short hand operator
+
 
 	var flags bool
 	flags = true
