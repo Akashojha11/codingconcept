@@ -87,6 +87,15 @@ func main() {
 	val2 :="65562"
 	//val3 := false
 
+	var akashAddress *Student                                    // if any change in pointer variable then 
+	akashAddress = &akash                                         //change in original values
+
+	adityaAddress := &aditya
+
+	fmt.Println("Akash pointer address = ",*akashAddress)           //* mean give the value of this address
+	fmt.Println("Aditya pointer address = ", adityaAddress)         // & mean give the address 
+
+
 	var interfaceExample interface{}
 		interfaceExample =val
 		fmt.Println("Interface value =",interfaceExample)
@@ -98,6 +107,8 @@ func main() {
 	                                                             //when varible not use in future	
 		fmt.Println("Interface value =",interfaceExample)
 	
+
+
 
 	fmt.Println("Hello akash Team...", akash)
 	fmt.Println("Hello akash Team...", aditya)
