@@ -21,7 +21,7 @@ func main() {
 		fmt.Println("Hello Team.... Gate Khlo = ", num)
 
 	}else if num < 0 { //11 == 13
-		fmt.Println("Gate Band Karo ", num)
+		fmt.Println("Gate Band Karo  ", num)
 	}else{
 		fmt.Println("Pta nhi ky kar rha hai = ", num)
 	}
