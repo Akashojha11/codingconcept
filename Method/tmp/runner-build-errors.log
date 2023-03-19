@@ -1,0 +1,2 @@
+# github.com/Akashojha11/codingconcept/Method
+.\main.go:68:2: assignment mismatch: 1 variable but fmt.Println returns 2 values
